@@ -1,6 +1,6 @@
 ## lab report-1-week-2
 # VisualStudioCode MacOS Install Tutorial  
-1. Click [here](https://code.visualstudio.com/download)to download VSCode
+1. Click [here](https://code.visualstudio.com/download) to download VSCode
 2. Double Click VSCode in download(top right corner for Safari Users) to activate package  
 ![Image](https://user-images.githubusercontent.com/98373624/162593115-966351c6-ba5a-406c-80cb-974580ac371f.png)
 3. Drag the file to application folder
@@ -15,7 +15,7 @@
 3. Go back to VSCode and Open a new terminal from the toolbar(top-left)
 ![Step3](https://user-images.githubusercontent.com/98373624/162593644-6e7dd03d-36c1-4fe1-b17f-dbd4880b284f.png)
 4. After loading there should be name of computer and your user name follow by $  
-type "ssh [YourAccount]@ieng6@ucsd.edu"
+type `ssh [YourAccount]@ieng6@ucsd.edu`
 ![step5](https://user-images.githubusercontent.com/98373624/162593983-06ea65c1-10b2-4cbf-9745-439466bfd6c2.png)
 5. For first-time login type **yes** when asked "Are you sure you want to continue connecting?"
 6. Enter Your Password to connect to the server
