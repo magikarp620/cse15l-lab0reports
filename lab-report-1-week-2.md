@@ -58,6 +58,18 @@ Even without the password it is a bit annoying to log in and out
 Here is some tips
 * Write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
 `$ ssh cs15lsp22aqm@ieng6.ucsd.edu "ls"`
+This line of code is significantly shorter than 
+```
+$ssh cs15lsp22zz@ieng6.ucsd.edu
+Password:         
+$ls
+$exit
+```
+Here are the comparison between the actual process  
+Before Optimizing(with genkey set up)  
+![Screen Shot 2022-04-27 at 11 17 15 PM](https://user-images.githubusercontent.com/98373624/165689409-c0d630c5-41ad-419e-9af5-27eefb19b360.png)  
+After Optimizing(run program on client)  
+![Screen Shot 2022-04-27 at 11 16 41 PM](https://user-images.githubusercontent.com/98373624/165689417-2450c553-9fc2-40b3-9242-e7c8ea6a202e.png)  
 
 April 9th, 2022
 Roger Lin
