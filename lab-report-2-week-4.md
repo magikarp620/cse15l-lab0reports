@@ -15,12 +15,13 @@ We added a break statement to solve this problem, if the next element is not fou
 link to [code change#1](https://github.com/magikarp620/markdown-parser/commit/8869f55d8f9757d433940ead9087dd1a0d2d4bc4)
 ## Code Change #2
 ![Test case2](https://user-images.githubusercontent.com/98373624/164944428-0fc5caba-15e6-41e7-afc8-c96898942d8b.png)  
-Link to second [Failure-Inducing Input](https://github.com/magikarp620/markdown-parser/blob/main/test-file.md?plain=1)
+Link to second [Failure-Inducing Input](https://github.com/magikarp620/markdown-parser/blob/main/test-file2.md?plain=1)
 
 Symptom of failure-inducing input: wrong output
 
 When the input type is Images/images the function still output the name of the file.
-![failure-output2](https://github.com/magikarp620/markdown-parser/blob/main/test-file2.md?plain=1)
+![failure-output2](https://user-images.githubusercontent.com/98373624/166506106-7d1e40c1-6b1d-4af5-a674-eaeb13139a90.png)
+
 
 We limited image output by checking the file type, if it equals images or Images, we avoid from returning the string 
 ![codeChange2](https://user-images.githubusercontent.com/98373624/164944611-5289e5c3-1314-4811-9889-f7cc66cd072b.png)
