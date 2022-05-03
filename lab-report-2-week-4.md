@@ -20,7 +20,7 @@ Link to second [Failure-Inducing Input](https://github.com/magikarp620/markdown-
 Symptom of failure-inducing input: wrong output
 
 When the input type is Images/images the function still output the name of the file.
-![failure-output2](https://user-images.githubusercontent.com/98373624/164944489-6c03a444-9338-4c77-8b61-a4e7e32307d1.png)
+![failure-output2](https://github.com/magikarp620/markdown-parser/blob/main/test-file2.md?plain=1)
 
 We limited image output by checking the file type, if it equals images or Images, we avoid from returning the string 
 ![codeChange2](https://user-images.githubusercontent.com/98373624/164944611-5289e5c3-1314-4811-9889-f7cc66cd072b.png)
